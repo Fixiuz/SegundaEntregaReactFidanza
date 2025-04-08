@@ -14,9 +14,9 @@
 }
 
 .productos:hover {
-    transform: scale(1.2);
+    transform: scale(1.09);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-    background-color: #cdd4e9;
+    background-color: #a6a6a6;
 }
 
 
@@ -29,21 +29,21 @@
 
 
 .productos h2 {
-    font-size: 2rem;
-    color: rgb(16, 24, 92);
+    font-size: 1.5rem;
+    color: #12223b;
     margin-top: 10px;
 }
 
 .productos p {
     font-size: 16px;
-    color: #555;
+    color: #12223b;
     margin-top: 5px;
     
 }
 
 
 .productos button {
-    background-color: rgb(16, 24, 92);
+    background-color: #12223b;
     color: white;
     border: none;
     padding: 8px 16px;
@@ -55,8 +55,8 @@
 }
 
 .productos button:hover {
-    background-color: #abb4ce;
-    color: rgb(26, 18, 143);
+    background-color: white;
+    color: #12223b;
 }
 
 

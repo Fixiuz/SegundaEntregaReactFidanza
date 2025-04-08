@@ -42,7 +42,7 @@ export const productos = [
     {
         id: 5,
         nombre: 'Iron Man',
-        precio: 3000,
+        precio: 6800,
         descripcion: 'Miniatura Iron Man',
         stock: 14,
         categoria: 'figuras',
@@ -52,7 +52,7 @@ export const productos = [
     {
         id: 6,
         nombre: 'Groot',
-        precio: 3000,
+        precio: 2600,
         descripcion: 'Miniatura Groot',
         stock: 38,
         categoria: 'figuras',
@@ -62,7 +62,7 @@ export const productos = [
     {
         id: 7,
         nombre: 'Glock',
-        precio: 3000,
+        precio: 2500,
         descripcion: 'Llavero Glock',
         stock: 34,
         categoria: 'llaveros',
@@ -72,7 +72,7 @@ export const productos = [
     {
         id: 8,
         nombre: 'Llaveros varios',
-        precio: 3000,
+        precio: 2500,
         descripcion: 'Variedad de llaveros',
         stock: 12,
         categoria: 'llaveros',
@@ -82,7 +82,7 @@ export const productos = [
     {
         id: 9,
         nombre: 'Llavero Pesas',
-        precio: 3000,
+        precio: 3400,
         descripcion: 'Llavero Pesas',
         stock: 22,
         categoria: 'llaveros',
@@ -92,7 +92,7 @@ export const productos = [
     {
         id: 10,
         nombre: 'Picador Oreo',
-        precio: 3000,
+        precio: 4000,
         descripcion: 'Picador con forma de Oreo',
         stock: 66,
         categoria: 'utilidades',
@@ -102,7 +102,7 @@ export const productos = [
     {
         id: 11,
         nombre: 'Soporte Auriculares',
-        precio: 3000,
+        precio: 6500,
         descripcion: 'Soporte para auriculares',
         stock: 66,
         categoria: 'utilidades',
@@ -112,7 +112,7 @@ export const productos = [
     {
         id: 12,
         nombre: 'ChevroletC10',
-        precio: 3000,
+        precio: 9000,
         descripcion: 'Miniatura Camioneta Chevrolet C10',
         stock: 66,
         categoria: 'vehiculos',
@@ -122,7 +122,7 @@ export const productos = [
     {
         id: 13,
         nombre: 'Tanque Abrahams',
-        precio: 3000,
+        precio: 3500,
         descripcion: 'Miniatura Tanque de guerra Abrahams',
         stock: 23,
         categoria: 'vehiculos',

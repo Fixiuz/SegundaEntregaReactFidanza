@@ -9,7 +9,7 @@
   background: linear-gradient(135deg, #e0e0e0, #c9c9c9);
 }
 .item-detail-container:hover {
-  background: linear-gradient(135deg, #a80d0d, #3be009);
+  
   transition: all 0.3s ease-in-out;
 }
 
@@ -18,7 +18,7 @@
   font-size: 2rem;
   margin-bottom: 20px;
   color: #222;
-  border-bottom: 2px solid #ddd;
+  
   padding-bottom: 10px;
 }
 
@@ -29,11 +29,11 @@
   color: #444;
 }
 
-.item-detail-container p:hover {
+/* .item-detail-container p:hover {
   background-color: #eb1313;
   transform: scale(1.02);
   transition: 0.2s;
-}
+} */
 
 .item-detail-container .btn {
   display: inline-block;
@@ -51,7 +51,7 @@
 }
 
 .item-detail-container .btn:hover {
-  background-color: #666;
+  background-color: #ffffff;
   transform: scale(1.05);
 }
 

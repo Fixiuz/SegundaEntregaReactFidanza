@@ -54,13 +54,13 @@ function ItemDetail(){
 
             :
             
-            <div className='productos'>
+            <div className='productosDetail'>
                 
                 <h2>{producto.nombre}</h2>
                 
-                <div className='imagenDetail'>
-                    <img src={`/assets/Imgs/${producto.img}`} alt={producto.nombre} />
-                </div>
+                
+                <img src={`/assets/Imgs/${producto.img}`} alt={producto.nombre} />
+                
                 <p>{producto.descripcion}</p>
                 <p>Precio: <b>${producto.precio}</b></p>
                 <p>Categoria : {producto.categoria}</p>
