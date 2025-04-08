@@ -1,20 +1,76 @@
-.productos p{
-    background-color: #999999;
-    color: rgb(245, 245, 245);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
     padding: 15px;
     text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    width: 100%; /* Asegura que el ítem ocupe el ancho de la celda */
-    max-width: 300px; /* Tamaño máximo para los ítems */
-    font-size: 1rem;
-    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-.botones{
-    display: flex;
+
+.productos:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #cdd4e9;
 }
-.btn{
-    border: 2px solid rgb(80, 84, 90);
-    background-color: rgb(255, 255, 255);
+
+
+.productos img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.productos h2 {
+    font-size: 2rem;
+    color: rgb(16, 24, 92);
+    margin-top: 10px;
+}
+
+.productos p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+    
+}
+
+
+.productos button {
+    background-color: rgb(16, 24, 92);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.productos button:hover {
+    background-color: #abb4ce;
+    color: rgb(26, 18, 143);
+}
+
+
+
+.productos img {
+    width: 200px;
+    height: 200px; /* Ajusta la altura de la imagen */
+    max-width: 100%; /* Asegura que la imagen no se desborde horizontalmente */
+    max-height: 100%; /* Asegura que la imagen no se desborde verticalmente */
+    object-fit: contain; /* Ajusta la imagen para que cubra el contenedor sin deformarse */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+
+
+
+    
 }

@@ -5,7 +5,7 @@ import {Link} from 'react-router';
 
 function Item({producto}){
     // console.log(producto);
-    const {id,nombre,precio,descripcion,stock,categoria} = producto;
+    const {id,nombre,precio,descripcion,stock,categoria,img} = producto;
     // const [contador, setContador] = useState(0);
     
 
@@ -22,7 +22,12 @@ function Item({producto}){
     
     return (
         <div className='productos'>
+            
             <h2>{nombre}</h2>
+            
+            <img  src={`/assets/Imgs/${img}`} alt={nombre} />
+            
+            
             <p>${precio}</p>
             <p>Quedan {stock} disponibles</p> 
             <button className='btn'onClick={()=> agregarAlCarrito(producto)}>Agregar al carrito</button>

@@ -1,14 +1,14 @@
-import './Products.css'
+// import './Products.css'
 
 
-function Products(){
-    return (
+// function Products(){
+//     return (
       
-      <div className='productos'>
-        <p>soy un producto</p>
-      </div>
-    )
+//       <div className='productos'>
+//         <p>soy un producto</p>
+//       </div>
+//     )
   
   
-  }
-export default Products
+//   }
+// export default Products

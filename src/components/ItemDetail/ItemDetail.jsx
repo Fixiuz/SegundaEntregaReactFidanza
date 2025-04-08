@@ -57,10 +57,15 @@ function ItemDetail(){
             <div className='productos'>
                 
                 <h2>{producto.nombre}</h2>
+                
+                <div className='imagenDetail'>
+                    <img src={`/assets/Imgs/${producto.img}`} alt={producto.nombre} />
+                </div>
+                <p>{producto.descripcion}</p>
                 <p>Precio: <b>${producto.precio}</b></p>
                 <p>Categoria : {producto.categoria}</p>
                 
-                <p>{producto.descripcion}</p>
+                
                 <p>Quedan {producto.stock} disponibles</p>                
                 <ItemCount stock = {producto.stock} contador = {contador} setContador = {setContador}/>   
                 <button className='btn' onClick={()=> agregarAlCarrito(producto)}>Agregar al carrito</button>

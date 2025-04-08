@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <header className='menu'>
       <div className='logo-container'>
-        <img className='logo' src="src\assets\logos\Logo_k3D.png" alt="logo" />
+        <img className='logo' src='..\public\assets\logos\Logo_k3D.png' alt="logo" />
       </div>
       <nav className='menu-container' > 
         

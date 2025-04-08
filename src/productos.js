@@ -7,7 +7,7 @@ export const productos = [
         descripcion: 'Miniatura Baby Yoda',
         stock: 55,
         categoria: 'figuras',
-        img:'',
+        img:'BabyYoda.jpg',
         
     },
     {
@@ -17,7 +17,7 @@ export const productos = [
         descripcion: 'Miniatura Barco',
         stock: 45,
         categoria: 'figuras',
-        img:'',
+        img:'Barco.jpg',
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ export const productos = [
         descripcion: 'Miniatura Batman',
         stock: 20,
         categoria: 'figuras',
-        img:'',
+        img:'Batman.jpg',
         
     },
     {
@@ -36,7 +36,7 @@ export const productos = [
         descripcion: 'Miniatura Copa del Mundo',
         stock: 19,
         categoria: 'figuras',
-        img:'',
+        img:'Copa.jpg',
         
     },
     {
@@ -46,7 +46,7 @@ export const productos = [
         descripcion: 'Miniatura Iron Man',
         stock: 14,
         categoria: 'figuras',
-        img:'',
+        img:'IronMan.jpg',
         
     },
     {
@@ -56,7 +56,7 @@ export const productos = [
         descripcion: 'Miniatura Groot',
         stock: 38,
         categoria: 'figuras',
-        img:'',
+        img:'Groot.jpg',
         
     },
     {
@@ -66,7 +66,7 @@ export const productos = [
         descripcion: 'Llavero Glock',
         stock: 34,
         categoria: 'llaveros',
-        img:'',
+        img:'Glock.jpg',
         
     },
     {
@@ -76,7 +76,7 @@ export const productos = [
         descripcion: 'Variedad de llaveros',
         stock: 12,
         categoria: 'llaveros',
-        img:'',
+        img:'LlaverosVarios.jpg',
         
     },
     {
@@ -86,7 +86,7 @@ export const productos = [
         descripcion: 'Llavero Pesas',
         stock: 22,
         categoria: 'llaveros',
-        img:'',
+        img:'Pesas.jpg',
         
     },
     {
@@ -96,17 +96,17 @@ export const productos = [
         descripcion: 'Picador con forma de Oreo',
         stock: 66,
         categoria: 'utilidades',
-        img:'',
+        img:'Picador.jpg',
         
     },
     {
         id: 11,
-        nombre: 'PSoporte Auriculares',
+        nombre: 'Soporte Auriculares',
         precio: 3000,
         descripcion: 'Soporte para auriculares',
         stock: 66,
         categoria: 'utilidades',
-        img:'',
+        img:'Soporte.jpg',
         
     },
     {
@@ -116,7 +116,7 @@ export const productos = [
         descripcion: 'Miniatura Camioneta Chevrolet C10',
         stock: 66,
         categoria: 'vehiculos',
-        img:'',
+        img:'ChevroletC10.jpg',
         
     },
     {
@@ -126,7 +126,7 @@ export const productos = [
         descripcion: 'Miniatura Tanque de guerra Abrahams',
         stock: 23,
         categoria: 'vehiculos',
-        img:'',
+        img:'TanqueAbrahams.jpg',
         
     }
 
